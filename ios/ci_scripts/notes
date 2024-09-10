@@ -1,0 +1,14 @@
+define variables on each env
+
+# package name 
+development_package_name="canon.ph.app.alpha"
+
+# Firebase project IDs 
+development_firebase_project_id="canon-ph-app---alpha"
+
+# App IDs 
+development_android_app_id="1:647045882952:android:d466c0ec1d877f768fa47d"
+
+
+# firebase user token
+"HASH HERE"
