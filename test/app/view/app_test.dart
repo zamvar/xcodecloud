@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:xcodecloud/app/app.dart';
-import 'package:xcodecloud/counter/counter.dart';
+import 'package:xcodecloud_thinkbit/app/app.dart';
+import 'package:xcodecloud_thinkbit/counter/counter.dart';
 
 void main() {
   group('App', () {

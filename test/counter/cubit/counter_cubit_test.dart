@@ -1,7 +1,7 @@
 import 'package:bloc_test/bloc_test.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:xcodecloud/counter/counter.dart';
+import 'package:xcodecloud_thinkbit/counter/counter.dart';
 
 void main() {
   group('CounterCubit', () {
