@@ -4,13 +4,13 @@
 CONFIG_FILE="ios/Flutter/generated.xcconfig"
 
 # Check if the SCHEME environment variable is set
-if [ -z "$SCHEME" ]; then
+if [ -z "$CI_XCODE_SCHEME" ]; then
     echo "Error: No scheme (flavor) provided!"
     exit 1
 fi
 
 # Convert the scheme to lowercase
-FLAVOR=$(echo "$SCHEME" | tr '[:upper:]' '[:lower:]')
+FLAVOR=$(echo "$CI_XCODE_SCHEME" | tr '[:upper:]' '[:lower:]')
 
 # Construct the new FLUTTER_TARGET based on the flavor
 NEW_FLUTTER_TARGET="lib/main_${FLAVOR}.dart"

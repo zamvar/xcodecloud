@@ -8,7 +8,7 @@ cd $CI_PRIMARY_REPOSITORY_PATH # change working directory to the root of your cl
 
 # Install Flutter using git.
 # Define flutter SDK version first.
-git clone https://github.com/flutter/flutter.git --depth 1 -b stable $HOME/flutter
+git clone https://github.com/flutter/flutter.git --branch 3.24.3
 export PATH="$PATH:$HOME/flutter/bin"
 
 # Install Flutter artifacts for iOS (--ios), or macOS (--macos) platforms.
