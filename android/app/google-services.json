@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "52233774317",
+    "project_id": "thinkbit-xcodecloud",
+    "storage_bucket": "thinkbit-xcodecloud.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:52233774317:android:36e63a42cf092f7209d8e4",
+        "android_client_info": {
+          "package_name": "com.example.verygoodcore.xcodecloud.thinkbit"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7otsexMLEsX3dA4ViPqiCYsiUUbED6Ew"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
