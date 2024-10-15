@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Path to the generated.xcconfig file
-CONFIG_FILE="ios/Flutter/generated.xcconfig"
+CONFIG_FILE="../Flutter/Generated.xcconfig"
 
 # Check if the SCHEME environment variable is set
 if [ -z "$CI_XCODE_SCHEME" ]; then
