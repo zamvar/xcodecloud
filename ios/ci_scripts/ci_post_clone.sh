@@ -1,5 +1,4 @@
 #!/bin/sh
-
 # Fail this script if any subcommand fails.
 set -e
 
@@ -8,7 +7,7 @@ cd $CI_PRIMARY_REPOSITORY_PATH # change working directory to the root of your cl
 
 # Install Flutter using git.
 # Define flutter SDK version first.
-git clone https://github.com/flutter/flutter.git --branch 3.24.3
+git clone https://github.com/flutter/flutter.git -b 3.24.3 $HOME/flutter
 export PATH="$PATH:$HOME/flutter/bin"
 
 # Install Flutter artifacts for iOS (--ios), or macOS (--macos) platforms.
